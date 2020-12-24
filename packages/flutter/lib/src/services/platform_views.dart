@@ -1044,7 +1044,7 @@ class TextureAndroidViewController extends AndroidViewController {
     return SystemChannels
         .platform_views.invokeMethod<void>('dispose', <String, dynamic>{
       'id': viewId,
-      'hybrid': false,
+      'hybrid': true,
     });
   }
 }
